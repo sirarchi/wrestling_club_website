@@ -1,0 +1,37 @@
+.c-nav {
+  margin-top: $grid-base;
+  margin-bottom: $grid-base;
+  background-color: $gray-light;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+
+  @include large-up {
+    margin: 0;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__item {
+    color: $black;
+    //display: block;
+    flex-direction: column;
+    font-size: $font-size-4;
+    padding-bottom: $grid-base * 2.5;
+    padding-top: $grid-base * 2.5;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+
+    &:hover {
+      color: $black;
+    }
+
+    @include large-up {
+      width: auto;
+      margin-right: $grid-base * 5;
+      font-size: $font-size-3;
+    }
+  }
+}
