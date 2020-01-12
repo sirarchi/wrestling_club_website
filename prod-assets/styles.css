@@ -195,41 +195,58 @@ a {
         font-size: 1.125rem; } }
 
 .c-photo-box {
-  width: 375px;
-  height: 204px;
-  background-image: url("../images/photo_box_1_small.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
   border-radius: 13px;
-  flex-wrap: wrap;
-  padding: 10px;
-  font-weight: bold; }
+  display: flex;
+  height: 204px;
+  justify-content: center;
+  position: relative;
+  width: 375px; }
   @media (min-width: 1200px) {
     .c-photo-box {
-      width: 557px;
+      display: block;
       height: 958px;
-      background-image: url("../images/photo_box_1_large.jpg");
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-end; } }
+      width: 557px; } }
+  .c-photo-box__image-lg {
+    display: none; }
+    @media (min-width: 1200px) {
+      .c-photo-box__image-lg {
+        display: inherit;
+        position: absolute;
+        z-index: -1; } }
+  .c-photo-box__image-sm {
+    position: absolute;
+    z-index: -1; }
+    @media (min-width: 1200px) {
+      .c-photo-box__image-sm {
+        display: none; } }
   .c-photo-box__text {
-    font-size: 3.75rem;
-    color: #fff; }
+    color: #fff;
+    font-size: 3.75rem; }
     @media (min-width: 1200px) {
       .c-photo-box__text {
+        left: 280px;
+        top: 10px;
+        position: absolute;
         text-align: right; } }
   .c-photo-box__text-description {
     display: none; }
     @media (min-width: 1200px) {
       .c-photo-box__text-description {
-        margin-top: 60px;
-        display: inherit;
         color: #fff;
-        width: 330px;
-        height: 400px;
+        display: inherit;
+        font-weight: bold;
         font-size: 1.8rem;
+        height: 400px;
+        margin-top: 60px;
+        left: 210px;
+        position: absolute;
         text-align: right;
-        font-weight: bold; } }
+        top: 135px;
+        width: 330px; }
+        .c-photo-box__text-description--version-two {
+          left: 0px;
+          top: 640px; }
+        .c-photo-box__text-description--version-three {
+          left: 220px;
+          top: 640px; } }

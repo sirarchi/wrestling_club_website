@@ -1,33 +1,46 @@
 .c-photo-box {
 
-  width: 375px;
-  height: 204px;
-  background-image: url("../images/photo_box_1_small.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
   border-radius: $border-radius;
-  flex-wrap: wrap;
-  padding: $grid-base;
-  font-weight: bold;
-
+  display: flex;
+  height: 204px;
+  justify-content: center;
+  position: relative;
+  width: 375px;
 
   @include large-up {
-    width: 557px;
+    display: block;
     height: 958px;
-    background-image: url("../images/photo_box_1_large.jpg");
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    width: 557px;
+  }
+
+  &__image-lg {
+    display: none;
+
+    @include large-up {
+      display: inherit;
+      position: absolute;
+      z-index: -1;
+      }
+  }
+
+  &__image-sm {
+    position: absolute;
+    z-index: -1;
+
+    @include large-up {
+      display: none;
+      }
   }
 
   &__text {
-    font-size: $font-size-2 * 1.5;
     color: $white;
+    font-size: $font-size-2 * 1.5;
 
     @include large-up {
+        left: 280px;
+        top: $grid-base;
+        position: absolute;
         text-align: right;
       }
     }
@@ -36,14 +49,27 @@
     display: none;
 
     @include large-up {
-      margin-top: $grid-base * 6;
-      display: inherit;
       color: $white;
-      width: 330px;
-      height: 400px;
-      font-size: $font-size-3 * 1.2;
-      text-align: right;
+      display: inherit;
       font-weight: bold;
+      font-size: $font-size-3 * 1.2;
+      height: 400px;
+      margin-top: $grid-base * 6;
+      left: 210px;
+      position: absolute;
+      text-align: right;
+      top: 135px;
+      width: 330px;
+
+      &--version-two {
+        left: 0px;
+        top: 640px;
+      }
+
+      &--version-three {
+        left: 220px;
+        top: 640px;
+      }
     }
   }
 }

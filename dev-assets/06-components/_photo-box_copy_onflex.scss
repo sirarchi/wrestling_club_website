@@ -1,0 +1,49 @@
+.c-photo-box {
+
+  width: 375px;
+  height: 204px;
+  background-image: url("../images/photo_box_1_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $border-radius;
+  flex-wrap: wrap;
+  padding: $grid-base;
+  font-weight: bold;
+
+
+  @include large-up {
+    width: 557px;
+    height: 958px;
+    background-image: url("../images/photo_box_1_large.jpg");
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  &__text {
+    font-size: $font-size-2 * 1.5;
+    color: $white;
+
+    @include large-up {
+        text-align: right;
+      }
+    }
+
+  &__text-description {
+    display: none;
+
+    @include large-up {
+      margin-top: $grid-base * 6;
+      display: inherit;
+      color: $white;
+      width: 330px;
+      height: 400px;
+      font-size: $font-size-3 * 1.2;
+      text-align: right;
+      font-weight: bold;
+    }
+  }
+}
