@@ -1,0 +1,25 @@
+input {
+  border: none;
+
+  @include placeholder {
+    color: $gray;
+    font-size: $font-size-5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: $grid-base / 2;
+    padding-left: $grid-base / 2;
+  }
+}
+
+textarea {
+  border: none;
+
+  @include placeholder {
+    color: $gray;
+    font-weight: bold;
+    font-size: $font-size-5;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: $grid-base / 2;
+    padding-left: $grid-base / 2;
+  }
+}

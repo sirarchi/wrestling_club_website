@@ -1,0 +1,52 @@
+.c-contact-form {
+
+  display: none;
+
+  @include large-up {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: space-between;
+    width: 1400px;
+  }
+
+  .c-contact-form__header {
+    color: $black;
+    font-size: $font-size-2;
+    font-weight: bold;
+    padding-left: $grid-base * 2;
+    margin-bottom: $grid-base * 3;
+  }
+
+  &__fields {
+    align-items: center;
+    background-color: $gray-light;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: space-between;
+    padding-top: $grid-base * 2;
+    padding-bottom: $grid-base;
+    width: 1040px;
+  }
+
+  &__email-field {
+    border-bottom: 2px solid $red;
+    background-color: $white;
+    height: 40px;
+    width: 1020px;
+  }
+
+  &__message-field {
+    border-bottom: 2px solid $red;
+    background-color: $white;
+    height: 230px;
+    width: 1020px;
+  }
+
+  &__button {
+    height: 30px;
+    width: 200px;
+  }
+
+}

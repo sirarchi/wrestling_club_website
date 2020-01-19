@@ -40,6 +40,68 @@ a {
   color: #333333;
   text-decoration: none; }
 
+input {
+  border: none; }
+  input::-webkit-input-placeholder {
+    color: #d1d1d1;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px; }
+  input:-moz-placeholder {
+    color: #d1d1d1;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px; }
+  input::-moz-placeholder {
+    color: #d1d1d1;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px; }
+  input:-ms-input-placeholder {
+    color: #d1d1d1;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 5px; }
+
+textarea {
+  border: none; }
+  textarea::-webkit-input-placeholder {
+    color: #d1d1d1;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+    padding-left: 5px; }
+  textarea:-moz-placeholder {
+    color: #d1d1d1;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+    padding-left: 5px; }
+  textarea::-moz-placeholder {
+    color: #d1d1d1;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+    padding-left: 5px; }
+  textarea:-ms-input-placeholder {
+    color: #d1d1d1;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+    padding-left: 5px; }
+
 .o-container {
   margin-left: auto;
   margin-right: auto;
@@ -250,3 +312,42 @@ a {
         .c-photo-box__text-description--version-three {
           left: 220px;
           top: 640px; } }
+
+.c-contact-form {
+  display: none; }
+  @media (min-width: 1200px) {
+    .c-contact-form {
+      display: flex;
+      flex-direction: column;
+      height: 470px;
+      justify-content: space-between;
+      width: 1400px; } }
+  .c-contact-form .c-contact-form__header {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 30px; }
+  .c-contact-form__fields {
+    align-items: center;
+    background-color: #f2f3f5;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 1040px; }
+  .c-contact-form__email-field {
+    border-bottom: 2px solid #D22E37;
+    background-color: #fff;
+    height: 40px;
+    width: 1020px; }
+  .c-contact-form__message-field {
+    border-bottom: 2px solid #D22E37;
+    background-color: #fff;
+    height: 230px;
+    width: 1020px; }
+  .c-contact-form__button {
+    height: 30px;
+    width: 200px; }
