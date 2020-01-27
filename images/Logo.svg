@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="598" height="116" viewBox="0 0 598 116">
+  <defs>
+    <filter id="UKS_Suples_Pruszków" x="90" y="4" width="508" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Uczniowski_klub_sportowy" x="91" y="61" width="422" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logo" transform="translate(-28 -33)">
+    <g transform="matrix(1, 0, 0, 1, 28, 33)" filter="url(#UKS_Suples_Pruszków)">
+      <text id="UKS_Suples_Pruszków-2" data-name="UKS Suples Pruszków" transform="translate(99 55)" fill="#fffbfb" font-size="48" font-family="Rockwell" letter-spacing="0.025em"><tspan x="0" y="0">UKS Suples Pruszków</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 28, 33)" filter="url(#Uczniowski_klub_sportowy)">
+      <text id="Uczniowski_klub_sportowy-2" data-name="Uczniowski klub sportowy" transform="translate(100 97)" fill="#fffbfb" font-size="32" font-family="Rockwell" letter-spacing="0.025em"><tspan x="0" y="0">Uczniowski klub sportowy</tspan></text>
+    </g>
+    <g id="sports_kabaddi-24px_1_" data-name="sports_kabaddi-24px (1)" transform="translate(27.948 33.218)">
+      <g id="Bounding_Box" transform="translate(-0.133 -0.328)">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="76" height="76" transform="translate(0.185 0.11)" fill="none"/>
+      </g>
+      <g id="Master" transform="translate(0.104 0.92)">
+        <g id="Group_3" data-name="Group 3">
+          <circle id="Ellipse_10" data-name="Ellipse 10" cx="6.392" cy="6.392" r="6.392" transform="translate(46.184)" fill="#fff"/>
+          <path id="Path_9" data-name="Path 9" d="M50.595,27.275V12.254l-16.14-6.84A6.821,6.821,0,0,0,25.985,8.1h0l-3.2,5.114a15.486,15.486,0,0,1-10.9,7.415l.192.192a12.732,12.732,0,0,0,7.862,3.739,22.927,22.927,0,0,0,6.68-5.242l1.918,9.588-3.707,3.516-3,2.845V59.236h6.392V40.06l6.712-6.392,5.753,25.569H47.4L40.431,24.079,38.45,14.171,44.2,16.409V27.275h6.392Z" transform="translate(25.952 9.48)" fill="#fff"/>
+          <path id="Path_10" data-name="Path 10" d="M12.258,16.172a6.236,6.236,0,0,0,2.3.927,7.832,7.832,0,0,0,1.215.128,5.055,5.055,0,0,0,1.215-.128,5.042,5.042,0,0,0,1.183-.352,6.108,6.108,0,0,0,2.109-1.406,6.418,6.418,0,0,0,1.758-5.753A6.179,6.179,0,0,0,20.28,6.3,6.593,6.593,0,0,0,18.17,4.889a5.041,5.041,0,0,0-1.183-.352,7.832,7.832,0,0,0-1.215-.128,6.609,6.609,0,0,0-1.119.1,6.1,6.1,0,0,0-1.31.352A7.572,7.572,0,0,0,11.267,6.3,6.179,6.179,0,0,0,9.509,9.588a6.418,6.418,0,0,0,1.758,5.753A6.207,6.207,0,0,0,12.258,16.172Z" transform="translate(20.471 8.47)" fill="#fff"/>
+          <path id="Path_11" data-name="Path 11" d="M35.814,16.226,29.422,9.834A8.03,8.03,0,0,0,28.431,9a6.171,6.171,0,0,0-2.3-.895,5.231,5.231,0,0,0-1.215-.128,6.37,6.37,0,0,0-4.507,1.886L9.734,20.541A6.37,6.37,0,0,0,7.88,25.463a4.922,4.922,0,0,0,.352,1.758l3.42,9.429L.05,48.251l4.507,4.538L18.108,39.238v-7.1l4.155,3.867v16.4h6.392V33.229l-6.776-6.776,7.543-7.543,2.269,2.269h0A22.394,22.394,0,0,0,47.768,27.7l-.447-6.616A16.184,16.184,0,0,1,35.814,16.226Z" transform="translate(-0.05 16.31)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

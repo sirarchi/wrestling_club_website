@@ -1,0 +1,19 @@
+.t-site-header {
+  background: url('../images/background_small_wrestling_1.png') 0 0 no-repeat;
+
+  @include large-up {
+    background: url('../images/background_big_wrestling_1.png') center no-repeat;
+    height: 1000px;
+    width: 100%;
+  }
+
+  &__top {
+    display: none;
+
+    @include large-up {
+      padding-top: $grid-base;
+      display: block;
+      padding-left: $grid-base * 10;
+    }
+  }
+}
